@@ -1,0 +1,37 @@
+{
+  "name": "Sistema de Facturacion PWA",
+  "short_name": "Facturacion",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f2fdf2",
+  "theme_color": "#4CAF50",
+"icons": [
+  {
+    "src": "img/agregar-producto.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  } ,
+
+  {
+    "src": "img/cliente.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+
+    {
+    "src": "img/factura.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  } ,
+
+    {
+    "src": "img/proyecto-de-ley.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }
+]
+
+
+
+
+}

@@ -1,4 +1,3 @@
-/* Parte 1: Tiffani Nathalia Torres Diaz */
 
 // Creamos una clase para gestionar los productos desde el localStorage.
 class ProductoService {
@@ -84,7 +83,7 @@ function mostrarProductos() {
     });
 }
 
-/* Parte 2: Veronica Janeth Yampuezan Burbano */
+
 
 // Cambiamos el contenido del formulario para editar el producto.
 function editarProducto(id) {
