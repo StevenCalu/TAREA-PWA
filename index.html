@@ -10,13 +10,16 @@
 </head>
 
 <body>
+    <h1>
+        <img src="img/factura.png" alt="Logo del sistema" width="100" style="vertical-align: middle; margin-right: 15px;">
+        Sistema de Facturación
+    </h1>
     
-    <div style="text-align: center; margin: 20px;">
-        <h1>Sistema de Facturacion </h1>
-     </div>
-
-     <section>
-        <h2>REGISTRAR CLIENTES</h2>
+    <section>
+        <h2>
+            <img src="img/cliente.png" alt="Clientes" width="60" style="vertical-align: middle; margin-right: 10px;">
+            REGISTRAR CLIENTES
+        </h2>
         <input type="text" id="nombre_cliente" placeholder="NOMBRE">
         <input type="text" id="cedula_cliente" placeholder="CÉDULA">
         <input type="text" id="direccion_cliente" placeholder="DIRECCIÓN">
@@ -25,7 +28,10 @@
     </section>
 
     <section>
-        <h2>REGISTRAR PRODUCTOS</h2>
+        <h2>
+            <img src="img/agregar-producto.png"  width="60" style="vertical-align: middle; margin-right: 10px;">
+            REGISTRAR PRODUCTOS
+        </h2>
         <input type="text" id="nombre_producto" placeholder="NOMBRE">
         <input type="number" id="precio_producto" placeholder="PRECIO">
         <button id="btn_producto" onclick="agregarProducto()">Agregar Producto</button>
@@ -33,7 +39,10 @@
     </section>
 
     <section>
-        <h2>GENERAR FACTURA</h2>
+        <h2>
+            <img src="img/proyecto-de-ley.png" alt="Factura" width="60" style="vertical-align: middle; margin-right: 10px;">
+            GENERAR FACTURA
+        </h2>
         <select id="cliente_factura"></select><br>
         <select id="producto_factura"></select>
         <input type="number" id="cantidad_producto" placeholder="CANTIDAD">
